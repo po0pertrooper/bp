@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>permanent problems</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+    }
+    .sidebar {
+      width: 200px;
+      background-color: #f4f4f4;
+      border-right: 1px solid #ccc;
+      padding: 10px;
+    }
+    .sidebar button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 5px;
+      border: none;
+      background-color: #e0e0e0;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    .sidebar button:hover {
+      background-color: #d0d0d0;
+    }
+    .content {
+      flex-grow: 1;
+      padding: 20px;
+    }
+    .text-panel {
+      display: none;
+    }
+    .text-panel.active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <button onclick="showPanel('panel1')">matthew</button>
+    <button onclick="showPanel('panel2')">matthew 2</button>
+    <button onclick="showPanel('panel3')">find me</button>
+  </div>
+
+  <div class="content">
+    <div id="panel1" class="text-panel active">
+      <h2>ill try making this cryptic</h2>
+      <p>he threw us aside, he treated us like we never even existed. i was his best friend, how can you be with someone for years and they just leave like that? its disgusting behavior that shouldnt be tolerated, i waited 107 days then when he came back he broke me, he broke us. he left with no reasoning, because he was scared? because he was bored? because he simply couldnt use his words to tell us he didnt want to be friends anymore. im not mad at him, i couldnt be if i wanted to. im simply dissapointed that he had me waiting for 107 days just for me to think that when he came back things would be different. things werent different, he said they'll never be. I have no choice but to accept the options that were laid upon me. i still have very little contact with him and we ussually are communicating via third parties and message relays, if you see this there is no need to go out and contact F3, there is no need to fufill any of F3s wishes as he doesnt even want them completed, thank you for you time and remember. You are worthless, your a pathetic loser that has no point or reasoning in life, your death wont affect this world or any other in it. goodbye.</p>
+    </div>
+    <div id="panel2" class="text-panel">
+      <h2>I hate him but i shouldnt</h2>
+      <p>This is an edit from my previous claim, i hate him. i hate matthew, ive never despised a person more. there is no reason why he should of brought contact back with us, he is a selfish person that lacks communication skills. i waited 107 days just to get the chance to talk to him again and yet i was ignored, mocked, and shamed. i was a tool that was used and then throw out like leftover food, i never knew a person could be so self centered in their fucking lives. this only brings hatred to my heart and deep down i dont judge him and i know my hatered isnt justified, but does that give me the leading circumstances to then ignore what i feel? I know at the end of the day that it doesnt matter whether hes self centeried or not, i wasnt any better. but i know, if i was in his shoes, i wouldnt of done what he did, i wouldnt of left like he did, and i wouldnt of been a little pussy that runs away from his problems. i was lied to, i was manipulated, i was effected in more ways then others. and yet apparently thats okay because i wasnt the "victim" because i wasnt "targeted". i hate his associates, i hate myself, i only harbor hatred for me. maybe thats why im so hateful, i cant do anything, i cant keep steady friendships, i cant even be steady with my partner, shes always thinking breaking up is the only solution and she doesnt see how much ive sacraficed for her, im done with this. i push people away for others i give people the most ive harmed myself in more ways then other trying to prove myself, trying to show how much i care. im done, im dead. this life wasnt meant for me and for now idk if i will kill myself, but i do know, if i keep going down this path, things wont get any better and ill only have one option. death. i hate myself, i hate how much i was changed, i hate how i feel, i hate how i live, i hate what i do, i hate how i look like, i hate how im so fat, i hate how i can never look enough, i hate how i can never be enough, i hate how im not smart, i hate how my parents think im a failure, i hate how my expectations are so high yet i bring them so low, i hate that i cant be normal, i hate that everytime i look in a mirror i cant be happy with myself or how i look, i hate how i cant smile because i know i look ugly whilst doing it. in the end i hate everything, everyone, and every peice of living matter on this universe. people think my feelings matter when in reality they dont, in reality none of this matters, i just want to die and theres nothing anyone can do about it. i only feel the way i feel because my eyes are open, i understand the universe for how it is and i dont understand how people can live without knowing the truth of how things are. I will never be enough, no matter what i do, no matter what i sacrafice there will always be another person better then me that i'll eventually get dropped for. my life is so pointless and worthless its almost funny to anyone reading this. i hope your happy with yourselves. living happilly is my only dream, im sad i couldnt acomplish it. </p>
+    </div>
+    <div id="panel3" class="text-panel">
+      <h2>if u want to contact me</h2>
+      <p>https://guns.lol/r4t</p>
+    </div>
+  </div>
+
+  <script>
+    function showPanel(panelId) {
+      const panels = document.querySelectorAll('.text-panel');
+      panels.forEach(panel => {
+        panel.classList.remove('active');
+      });
+      document.getElementById(panelId).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
